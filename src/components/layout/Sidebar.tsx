@@ -28,10 +28,16 @@ export function Sidebar({ mobileOpen, onCloseMobile }: SidebarProps) {
 
   const navigation = [
     {
+      name: 'Dashboard',
+      href: '/dashboard',
+      icon: LayoutDashboard,
+      current: pathname === '/dashboard' || pathname === '/',
+    },
+    {
       name: 'Products',
       href: '/products',
       icon: Package,
-      current: pathname === '/products' || pathname.startsWith('/products/'),
+      current: pathname === '/products' || (pathname.startsWith('/products/') && pathname !== '/products/new'),
     },
     {
       name: 'Add Product',

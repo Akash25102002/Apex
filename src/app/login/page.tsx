@@ -19,7 +19,7 @@ function LoginForm() {
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<{ username?: string; password?: string }>({});
 
-  const redirectUrl = searchParams.get('redirect') || '/products';
+  const redirectUrl = searchParams.get('redirect') || '/dashboard';
   const reason = searchParams.get('reason');
 
   useEffect(() => {
