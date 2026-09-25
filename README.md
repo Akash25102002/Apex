@@ -10,6 +10,7 @@ Designed with a modern SaaS aesthetic inspired by production dashboard systems, 
 
 | Credential | Value |
 | :--- | :--- |
+| **Live App URL** | [https://identifying-packed-humidity-cancellation.trycloudflare.com](https://identifying-packed-humidity-cancellation.trycloudflare.com) |
 | **Login URL** | `/login` |
 | **Demo Username** | `emilys` |
 | **Demo Password** | `emilyspass` |
